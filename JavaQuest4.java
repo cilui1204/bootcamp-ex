@@ -21,8 +21,13 @@ public class JavaQuest4 {
     // 1. Even numbers
     // 2. Divisible by 3
     // 3. > 0
+    int j = 0;
     for (int i = 0; i < 100; i++) { // You cannot change this line
       // code here ...
+      if (i%3==0 && i%2==0 & i>0 & j<10){
+        j+=1;
+        System.out.println(i);
+      }
     }
   }
 }

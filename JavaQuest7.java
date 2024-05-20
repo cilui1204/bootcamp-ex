@@ -9,8 +9,15 @@ public class JavaQuest7 {
     // code here
     int sum = 0;
 
+    int[] x = new int[10];
+    for (int i=0;i<10;i++){
+      x[i]=i+1;
+    }
     // Write a loop to sum up all value in the int array
     // code here ...
+    for (int j=0;j<10;j++){
+      sum += x[j];
+    }
     System.out.println("The sum is " + sum);
   }
 }
